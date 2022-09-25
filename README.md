@@ -6,7 +6,7 @@
     <br>
 </p>
 
-Rest-source for https://github.com/skrepper/quasar_exp
+Rest-source for my experiment with Quasar https://github.com/skrepper/quasar_exp
 
 Clone of https://www.twilio.com/blog/build-single-page-application-in-php-yii-2-0-vue-js
 
