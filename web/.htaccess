@@ -1,0 +1,8 @@
+RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+#https://stackoverflow.com/questions/37234854/yii2-rest-api-basic-auth-invalid-credential
+#RewriteCond %{HTTP:Authorization} .
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
